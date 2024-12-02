@@ -13,8 +13,8 @@ function Home({ todos, deleteTodo }) {
                 <div className="card-actions justify-end"></div>
                 <h2 className="card-title">{todo.title}</h2>
                 <p>{todo.description.slice(0, 80)}...</p>
-                <div className="card-actions justify-end">
-                  <Link to="" className="btn btn-neutral btn-sm">
+                <div className="card-actions">
+                  <Link to="" className="btn btn-neutral btn-sm w-full">
                     Read More
                   </Link>
                 </div>
